@@ -1,0 +1,39 @@
+body {
+   
+    background-color: aqua;
+}
+
+
+.container {
+    margin-top: 20;
+    margin: 0 auto;
+    width: 900px;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.flex-container {
+    margin-top: 10px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.flex-item {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.flex-item h2 {
+    color: blue;
+}
+
+.flex-item p {
+    color: gray;
+}
